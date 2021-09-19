@@ -1,0 +1,26 @@
+.discount {
+    padding: 20px 0;
+    background: #605DEC;
+
+    &-block {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    &__text {
+        padding:0 45px;
+        color: #F6F6FE;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    &__close {
+        position: absolute;
+        right: 0;
+        margin-left: 10px;
+    }
+}

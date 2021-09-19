@@ -1,0 +1,129 @@
+.search {
+    display: flex;
+
+    &__wrapper {
+        padding-left: 8px;
+        position: relative;
+        border: 1px solid #605DEC;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__from, &__to {
+        width: 325px
+    }
+
+    &__date {
+        width: 252px;
+    }
+
+    &__person {
+        width: 200px;
+    }
+
+    &__input{
+        border: none;
+        width: 100%;
+    }
+
+    &__audit {
+        &-counter {
+            bottom: -223%;
+            left: 24px;
+            position: absolute;
+            width: 232px;
+            height: 104px;
+            background: #FFFFFF;
+            padding: 16px;
+            border: 1px solid #CBD4E6;
+            box-shadow: 0px 2px 4px rgba(7, 4, 146, 0.1), 0px 24px 60px rgba(6, 47, 125, 0.05), 0px 12px 24px rgba(27, 59, 119, 0.05);
+            border-radius: 8px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+        }
+    }
+
+    &__img {
+        width: 32px;
+        height: 32px;    
+    }
+
+    &__input{
+        border: none;
+        width: 100%;
+    }
+
+    &__bg {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        top: 6px;
+        right: 10px;
+    }
+
+    &__counter {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-text {
+            color: #6E7491;
+            margin-right: 20px;
+        }
+    }
+
+    &__minus, &__result {
+        margin-right: 8px;
+    }
+
+    &__result {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 16px;
+        color: #6E7491;
+    }
+
+}
+
+
+@media screen and (max-width: 1135px) {
+    .search {
+
+        &__from, &__to, &__person {
+            width: 173px;
+        }
+
+        &__date {
+            width: 252px;
+        }
+
+        &__person {
+            padding-left: 8px;
+        }
+
+    }
+    
+    
+}
+
+@media screen and (max-width: 900px) {
+    .search {
+       display: flex;
+       flex-direction: column;
+       width: 80%;
+
+        &__from, &__wrapper, &__date, &__person, &__btn {
+            width: 100%;
+        }
+
+        &__btn {
+            text-align: center;
+        }
+    }
+    
+    
+}

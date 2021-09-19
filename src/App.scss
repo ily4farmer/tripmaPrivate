@@ -1,0 +1,134 @@
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #605DEC;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.section {
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 1250px) {
+      justify-content: space-evenly;
+    }
+    @media screen and (max-width: 900px) {
+      .section__list {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+
+  &__item {
+    margin-bottom: 40px;
+    max-width: 411px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    &-footer {
+      padding: 16px 24px;
+    }
+    @media screen and (max-width: 430px) {
+      width: 100%;
+    }
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  &__close {
+    font-size: 24px;
+    line-height: 33px;
+    color: #A1B0CC;
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+
+  &__title {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #6E7491;
+    margin-bottom: 24px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__city {
+    color: #6E7491;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+    span {
+      color: #605DEC;
+    }
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 22px
+  }
+}
+
+.form {
+
+  &__input {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 12px; 
+    background: #FFFFFF;
+    border: 1px solid #A1B0CC;
+    border-radius: 4px;
+    &::placeholder {
+      color: #7C8DB0;
+    }
+  }
+
+  &__btn {
+    border: 1px solid #605DEC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 20px;
+    text-align: center;
+    margin-bottom: 12px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    span {
+        font-size: 18px;
+        line-height: 25px;
+        color: #605DEC;
+    }
+}
+
+}

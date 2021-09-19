@@ -1,0 +1,91 @@
+.table {
+    &__wrapper {
+        max-width: 872px;
+    }
+
+    &__main {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6E7491;
+        margin-bottom: 16px;
+        span {
+            color: #605DEC;
+        }
+    }
+
+    &-block {
+        width: 872px;
+        border: 1px solid #E9E8FC;
+        border-radius: 12px;
+        padding: 16px;
+    }
+
+    &__item {
+        border-bottom: 1px solid #E9E8FC;
+    }
+
+    &__string {
+        border: 2px solid #333;
+    }
+
+    &__avatar {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    } 
+    
+    &__path {
+        margin-left: 34px;
+    }
+
+    &__time {
+        vertical-align: top;
+    }
+
+    &__path ,&__time, &__stop, &__price {
+        padding: 8px 16px;
+    }
+
+    &__stop, &__price {
+        text-align: right;
+    }
+
+    &__title {
+        color: #27273F;
+    }
+
+    &__btn {
+        margin-top: 24px;
+        margin-bottom: 48px;
+        background: #fff;
+        border: 1px solid #605DEC;
+        color: #605DEC;
+        float: right;
+    }
+
+}
+
+.select {
+    margin-top: 24px;
+    margin-bottom: 42px;
+    display: flex;
+    max-width: 700px;
+    &__label {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #CBD4E6;
+        border-radius: 4px;
+        color: #27273F;
+        padding: 8px 12px 8px 16px;
+        margin-right: 16px;
+    }
+    &__item {
+        color: #27273F;
+    }
+}

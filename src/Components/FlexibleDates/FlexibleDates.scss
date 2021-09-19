@@ -1,0 +1,36 @@
+.flexibleDates {
+    // background: #E9E8FC;
+    border: 1px solid #E9E8FC;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    &__title {
+        border-bottom: 1px solid #E9E8FC;
+        border-right: 1px solid #E9E8FC;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #52556F;
+    }
+
+    &__item {
+        border-bottom: 1px solid #E9E8FC;
+        font-size: 14px;
+        line-height: 19px;
+        color: #6E7491;
+        text-align: center;
+        &:hover {
+            background: #605DEC;
+            color: #fff;
+        }
+    }
+
+    &__title, &__item {
+        width: 65px;
+        height: 40px;
+    }
+
+    &__string {
+        border: 1px solid #E9E8FC;
+    }
+}

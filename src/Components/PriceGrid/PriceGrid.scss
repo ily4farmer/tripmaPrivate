@@ -1,0 +1,45 @@
+.priceGrid {
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #6E7491;
+        &:first-child {
+            span {
+                color: #7C8DB0;
+            }
+        }
+    }
+
+    &__top {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    &__btn {
+        margin-left: 10px;
+        background: #5CD6C0;
+        border-radius: 4px;
+        padding: 2px 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    &__history {
+        max-width: 400px;
+        max-height: 192px;
+    }
+
+    &__recommend {
+        color: #6E7491;
+        margin-bottom: 10px;
+    }
+
+    &__info {
+        color: #A1B0CC;
+    }
+}

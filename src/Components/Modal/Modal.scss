@@ -1,0 +1,122 @@
+.modal {
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(82, 82, 122, 0.2);
+    background-size: 100%;
+    display: flex;
+    &__wrapper {
+        margin: auto;
+        margin-top: 128px;
+        z-index: 12;
+        display: block;
+        background: #fff;
+        max-width: 568px;
+        padding: 40px;
+        border: 1px solid #CBD4E6;
+        box-shadow: 0px 2px 4px rgba(7, 4, 146, 0.1), 0px 24px 60px rgba(6, 47, 125, 0.05), 0px 12px 24px rgba(27, 59, 119, 0.05);
+        border-radius: 12px;
+    }
+
+    &__top {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        color: #6E7491;
+        margin-bottom: 12px;
+    }
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 32px;
+        height: 32px;
+        float: right;
+        cursor: pointer;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 12px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        margin-bottom: 12px;
+    }
+
+    &__option {
+
+        height: 25px;
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 22px;
+        display: flex;
+        justify-content: center;
+        span {
+            font-size: 18px;
+            line-height: 25px;
+            position: absolute;
+            background-color: #fff;
+            padding: 0 10px
+        }
+        &::before {
+            position: absolute;
+            top: 11px;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #CBD4E6;
+        }
+    }
+
+    &__checkbox{
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+        input {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;  
+        }
+
+        p {
+            span {
+                color: #605DEC;
+            }
+        }
+    }
+
+    &__btn {
+        margin-top: 12px;
+    }
+
+    &__link {
+        position: relative;
+    }
+
+    &__img {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 20px;
+        top: 15px;
+    }
+
+}
