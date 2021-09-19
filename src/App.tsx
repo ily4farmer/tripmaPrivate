@@ -10,6 +10,7 @@ import Layout from './Components/Layout/Layout'
 const App:FC = () => {
   return (
     <HashRouter>
+      
       <Discount/>
       <Header/>
       <Layout/>
