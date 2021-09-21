@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tripmaPrivate/static/css/main.bd3ff1b6.chunk.css",
-    "main.js": "/tripmaPrivate/static/js/main.94e29cd0.chunk.js",
-    "main.js.map": "/tripmaPrivate/static/js/main.94e29cd0.chunk.js.map",
+    "main.css": "/tripmaPrivate/static/css/main.eb39cd78.chunk.css",
+    "main.js": "/tripmaPrivate/static/js/main.32f451ac.chunk.js",
+    "main.js.map": "/tripmaPrivate/static/js/main.32f451ac.chunk.js.map",
     "runtime-main.js": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js",
     "runtime-main.js.map": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js.map",
     "static/js/2.977b2dea.chunk.js": "/tripmaPrivate/static/js/2.977b2dea.chunk.js",
     "static/js/2.977b2dea.chunk.js.map": "/tripmaPrivate/static/js/2.977b2dea.chunk.js.map",
     "index.html": "/tripmaPrivate/index.html",
-    "static/css/main.bd3ff1b6.chunk.css.map": "/tripmaPrivate/static/css/main.bd3ff1b6.chunk.css.map",
+    "static/css/main.eb39cd78.chunk.css.map": "/tripmaPrivate/static/css/main.eb39cd78.chunk.css.map",
     "static/js/2.977b2dea.chunk.js.LICENSE.txt": "/tripmaPrivate/static/js/2.977b2dea.chunk.js.LICENSE.txt",
     "static/media/Japan.e5de59ec.svg": "/tripmaPrivate/static/media/Japan.e5de59ec.svg",
     "static/media/Map.43f2aeeb.png": "/tripmaPrivate/static/media/Map.43f2aeeb.png",
@@ -38,7 +38,7 @@
     "static/media/kyoto.bcbdb9ef.png": "/tripmaPrivate/static/media/kyoto.bcbdb9ef.png",
     "static/media/logo.7f6ef484.svg": "/tripmaPrivate/static/media/logo.7f6ef484.svg",
     "static/media/maldives.5df48ae8.png": "/tripmaPrivate/static/media/maldives.5df48ae8.png",
-    "static/media/menu.4f801edc.svg": "/tripmaPrivate/static/media/menu.4f801edc.svg",
+    "static/media/menu.03e96ddf.svg": "/tripmaPrivate/static/media/menu.03e96ddf.svg",
     "static/media/minus.2527da2c.svg": "/tripmaPrivate/static/media/minus.2527da2c.svg",
     "static/media/nairobi.893defad.png": "/tripmaPrivate/static/media/nairobi.893defad.png",
     "static/media/person.74b2557d.svg": "/tripmaPrivate/static/media/person.74b2557d.svg",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.209d3dcb.js",
     "static/js/2.977b2dea.chunk.js",
-    "static/css/main.bd3ff1b6.chunk.css",
-    "static/js/main.94e29cd0.chunk.js"
+    "static/css/main.eb39cd78.chunk.css",
+    "static/js/main.32f451ac.chunk.js"
   ]
 }
