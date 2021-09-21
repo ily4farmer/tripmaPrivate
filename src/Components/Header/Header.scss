@@ -72,6 +72,13 @@
         }
         &__menu {
             display: block;
+            &:checked ~ .header__right {
+                display: flex;
+            }
+        }
+
+        &__menu:checked ~ .header__right {
+            display: flex;
         }
 
         &__wrapper {

@@ -20,37 +20,37 @@ const FlightTable:FC = () => {
                         <select className="select__item" name="Max price">
                             <option value="Max price" selected>Max price</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                     <label className="select__label">
                         <select className="select__item" name="Shops">
                             <option value="Shops" selected>Shops</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                     <label className="select__label">
                         <select className="select__item" name="Times">
                             <option value="Times" selected>Times</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                     <label className="select__label">
                         <select className="select__item" name="Airlines">
                             <option value="Airlines" selected>Airlines</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                     <label className="select__label">
                         <select className="select__item" name="Seat class">
                             <option value="Seat class" selected>Seat class</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                     <label className="select__label">
                         <select className="select__item" name="More">
                             <option value="More" selected>More</option>
                         </select>
-                        <img src={down} alt={down} />
+                        <img className="select__img" src={down} alt={down} />
                     </label>
                 </form>
                     <h2 className="table__main">Choose a <span>departing</span> flight</h2>
@@ -63,14 +63,14 @@ const FlightTable:FC = () => {
                                                 <td className="table__avatar table__item"><img src={el.avatar} alt={el.avatar} /></td>
                                                 <td className="table__path table__item">
                                                     <span className="table__title">{el.path.title}</span>
-                                                    <td className="table__subtitle">{el.path.subtitle}</td>
+                                                    <p className="table__subtitle">{el.path.subtitle}</p>
                                                 </td>
                                                 <td className="table__time table__item">
                                                     <span className="table__title">{el.time}</span>
                                                 </td>
                                                 <td className="table__stop table__item">
                                                     <span className="table__title">{el.stop.title}</span>
-                                                    <p>{el.stop.stop}</p>
+                                                    <p className="table__subtitle">{el.stop.stop}</p>
                                                 </td>
                                                 <td className="table__price table__item">
                                                     <span className="table__title">${el.price.title}</span>

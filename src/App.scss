@@ -46,8 +46,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-    align-self: center;
   }
 
   &__close {
@@ -56,6 +54,7 @@
     color: #A1B0CC;
     display: flex;
     align-items: center;
+    align-content: center;
   }
 
   &__img {
@@ -131,4 +130,20 @@
     }
 }
 
+}
+
+.content {
+  &__top {
+      display: flex;
+      justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .content {
+      &__top {
+          flex-direction: column;
+          justify-content: center;
+      }
+  }
 }

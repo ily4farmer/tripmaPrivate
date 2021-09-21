@@ -1,6 +1,15 @@
 .sidebar {
-    padding-top: 110px;
+    padding-top: 120px;
     &__container {
         max-width: 397px;
     }
 }
+
+@media screen and (max-width: 1340px) {
+    .sidebar {
+        padding-top: 30px;
+        &__container {
+            max-width: 100%;
+        }
+    }
+  }

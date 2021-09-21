@@ -1,8 +1,27 @@
 .flexibleDates {
-    // background: #E9E8FC;
-    border: 1px solid #E9E8FC;
-    border-radius: 12px;
-    margin-bottom: 40px;
+    border-collapse: collapse;
+    position: relative;
+
+    &__wrapper {
+        margin-bottom: 40px;
+        border: 1px solid #E9E8FC;
+        border-radius: 12px;
+    }
+
+    &__string {
+        td, th {
+            &:last-child {
+                border-right: none;
+            }
+        }
+
+        &:last-child {
+            td, th {
+                border-bottom: none;
+            }
+        }
+    }
+
     &__title {
         border-bottom: 1px solid #E9E8FC;
         border-right: 1px solid #E9E8FC;
@@ -15,6 +34,7 @@
 
     &__item {
         border-bottom: 1px solid #E9E8FC;
+        border-right: 1px solid #E9E8FC;
         font-size: 14px;
         line-height: 19px;
         color: #6E7491;
@@ -23,14 +43,32 @@
             background: #605DEC;
             color: #fff;
         }
+        &::before { 
+            background-color: #333;
+            content: '';  
+            width: 30px;
+            height: 30px;
+            // left: 0;
+            // // position: absolute;  
+            // top: 0;
+            z-index: 2;        
+        }
     }
 
     &__title, &__item {
         width: 65px;
         height: 40px;
     }
+}
 
-    &__string {
-        border: 1px solid #E9E8FC;
+
+
+
+@media screen and (max-width: 1340px) {
+    .flexibleDates {
+        width: 100%;
+        &__string {
+            width: 100%;
+        }
     }
 }

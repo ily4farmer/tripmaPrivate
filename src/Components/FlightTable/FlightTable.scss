@@ -4,6 +4,7 @@
     }
 
     &__main {
+        margin-left: 12px;
         font-weight: 600;
         font-size: 18px;
         line-height: 25px;
@@ -26,7 +27,15 @@
     }
 
     &__string {
+        padding: 4px 0;
         border: 2px solid #333;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        &:last-child {
+            td {
+                border-bottom: none;
+            }
+        }
     }
 
     &__avatar {
@@ -48,7 +57,7 @@
     }
 
     &__path ,&__time, &__stop, &__price {
-        padding: 8px 16px;
+        padding: 12px 16px;
     }
 
     &__stop, &__price {
@@ -57,6 +66,12 @@
 
     &__title {
         color: #27273F;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__subtitle {
+        margin-top: 4px;
     }
 
     &__btn {
@@ -68,13 +83,17 @@
         float: right;
     }
 
+    &__map {
+        max-width: 100%;
+    }
 }
 
 .select {
     margin-top: 24px;
-    margin-bottom: 42px;
+    margin-bottom: 48px;
     display: flex;
-    max-width: 700px;
+    max-width: 704px;
+    flex-wrap: wrap;
     &__label {
         display: flex;
         align-items: center;
@@ -82,10 +101,85 @@
         border: 1px solid #CBD4E6;
         border-radius: 4px;
         color: #27273F;
-        padding: 8px 12px 8px 16px;
+        padding: 7px 11px 7px 15px;
         margin-right: 16px;
+        &:last-child {
+            margin-right: 0;
+        }
     }
     &__item {
         color: #27273F;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &__img {
+        margin-left: 4px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .table {
+        &__wrapper {
+            max-width: 100%;
+        }
+
+        &-block {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .table {
+
+        &__avatar {
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &__path ,&__time, &__stop, &__price {
+            padding: 5px 10px;
+        }
+
+        &__title {
+            font-size: 10px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+
+        &__btn {
+            padding: 10px;
+            font-size: 13px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .table {
+        &-block {
+            padding: 5px;
+        }
+
+        &__path ,&__time, &__stop, &__price {
+            padding: 6px;
+        }
+    
+        &__title {
+            font-size: 11px;
+        }
+    
+        &__subtitle {
+            font-size: 10px;
+        }
+
     }
 }

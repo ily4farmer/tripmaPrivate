@@ -12,6 +12,7 @@ const PassengerInformation:FC = () => {
                             Enter the required information for each traveler and be sure that it exactly matches the 
                             government-issued ID presented at the airport.
                         </p>
+                        
                         <label className="passenger__label">
                             <h3 className="passenger__label-title">Passenger 1 (Adult)</h3>
                             <div className="passenger__label-block">

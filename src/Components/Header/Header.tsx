@@ -36,7 +36,7 @@ const Header:FC = () => {
                                 <Link to="#" className=" btn">Sign up</Link>
                             </div>
                         </div>
-                        <img className="header__menu" src={menu} alt={menu} />
+                            <img className="header__menu" src={menu} alt={menu} />
                     </div>
                 </div>
             </div>

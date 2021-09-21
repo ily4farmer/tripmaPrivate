@@ -15,7 +15,7 @@ const SampleComponent:FC<ISampleComponent> = ({item, titleExample}) => {
         <section className="section">
             <div className="container">
             <div className="section__top">
-                <h2 className="section__title">{titleExample()}</h2>
+                {titleExample()}
                 <Link to="#" className="section__close">
                     All
                     <img src={btnRight} alt={btnRight} />

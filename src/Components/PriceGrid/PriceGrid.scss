@@ -19,7 +19,7 @@
     }
 
     &__btn {
-        margin-left: 10px;
+        margin-left: 16px;
         background: #5CD6C0;
         border-radius: 4px;
         padding: 2px 8px;
@@ -43,3 +43,17 @@
         color: #A1B0CC;
     }
 }
+
+@media screen and (max-width: 1340px) {
+    .priceGrid {
+        &__title {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        &__history {
+            max-width: 100%;
+        }
+    }
+  }

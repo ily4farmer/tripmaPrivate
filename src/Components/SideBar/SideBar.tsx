@@ -5,8 +5,10 @@ import './SideBar.scss'
 const SideBar:FC = () => {
     return (
         <aside className="sidebar">
-            <div className="sidebar__container">
-                <PriceGrid/>
+            <div className="container">
+                <div className="sidebar__container">
+                    <PriceGrid/>
+                </div>
             </div>
         </aside>
     )
