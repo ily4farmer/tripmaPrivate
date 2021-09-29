@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tripmaPrivate/static/css/main.7de9f1fe.chunk.css",
-    "main.js": "/tripmaPrivate/static/js/main.0e8333ff.chunk.js",
-    "main.js.map": "/tripmaPrivate/static/js/main.0e8333ff.chunk.js.map",
+    "main.js": "/tripmaPrivate/static/js/main.a5793635.chunk.js",
+    "main.js.map": "/tripmaPrivate/static/js/main.a5793635.chunk.js.map",
     "runtime-main.js": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js",
     "runtime-main.js.map": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js.map",
-    "static/js/2.bd601122.chunk.js": "/tripmaPrivate/static/js/2.bd601122.chunk.js",
-    "static/js/2.bd601122.chunk.js.map": "/tripmaPrivate/static/js/2.bd601122.chunk.js.map",
+    "static/js/2.94ef6a1a.chunk.js": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js",
+    "static/js/2.94ef6a1a.chunk.js.map": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js.map",
     "index.html": "/tripmaPrivate/index.html",
     "static/css/main.7de9f1fe.chunk.css.map": "/tripmaPrivate/static/css/main.7de9f1fe.chunk.css.map",
-    "static/js/2.bd601122.chunk.js.LICENSE.txt": "/tripmaPrivate/static/js/2.bd601122.chunk.js.LICENSE.txt",
+    "static/js/2.94ef6a1a.chunk.js.LICENSE.txt": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js.LICENSE.txt",
     "static/media/Logo.714a6321.svg": "/tripmaPrivate/static/media/Logo.714a6321.svg",
     "static/media/arrow.6a5aaf50.svg": "/tripmaPrivate/static/media/arrow.6a5aaf50.svg",
     "static/media/btnRight.cb7b527b.svg": "/tripmaPrivate/static/media/btnRight.cb7b527b.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209d3dcb.js",
-    "static/js/2.bd601122.chunk.js",
+    "static/js/2.94ef6a1a.chunk.js",
     "static/css/main.7de9f1fe.chunk.css",
-    "static/js/main.0e8333ff.chunk.js"
+    "static/js/main.a5793635.chunk.js"
   ]
 }
