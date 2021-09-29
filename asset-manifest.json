@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/tripmaPrivate/static/css/main.7de9f1fe.chunk.css",
+    "main.js": "/tripmaPrivate/static/js/main.148ad36f.chunk.js",
+    "main.js.map": "/tripmaPrivate/static/js/main.148ad36f.chunk.js.map",
+    "runtime-main.js": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js",
+    "runtime-main.js.map": "/tripmaPrivate/static/js/runtime-main.209d3dcb.js.map",
+    "static/js/2.94ef6a1a.chunk.js": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js",
+    "static/js/2.94ef6a1a.chunk.js.map": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js.map",
+    "index.html": "/tripmaPrivate/index.html",
+    "static/css/main.7de9f1fe.chunk.css.map": "/tripmaPrivate/static/css/main.7de9f1fe.chunk.css.map",
+    "static/js/2.94ef6a1a.chunk.js.LICENSE.txt": "/tripmaPrivate/static/js/2.94ef6a1a.chunk.js.LICENSE.txt",
+    "static/media/Logo.714a6321.svg": "/tripmaPrivate/static/media/Logo.714a6321.svg",
+    "static/media/arrow.6a5aaf50.svg": "/tripmaPrivate/static/media/arrow.6a5aaf50.svg",
+    "static/media/btnRight.cb7b527b.svg": "/tripmaPrivate/static/media/btnRight.cb7b527b.svg",
+    "static/media/close.d3e42c2e.svg": "/tripmaPrivate/static/media/close.d3e42c2e.svg",
+    "static/media/facebook.f2da726e.svg": "/tripmaPrivate/static/media/facebook.f2da726e.svg",
+    "static/media/icon.803564aa.svg": "/tripmaPrivate/static/media/icon.803564aa.svg",
+    "static/media/icon1.d641ab23.svg": "/tripmaPrivate/static/media/icon1.d641ab23.svg",
+    "static/media/icon2.9f78539b.svg": "/tripmaPrivate/static/media/icon2.9f78539b.svg",
+    "static/media/icon3.c1c59424.svg": "/tripmaPrivate/static/media/icon3.c1c59424.svg",
+    "static/media/icon4.7f2bf8c3.svg": "/tripmaPrivate/static/media/icon4.7f2bf8c3.svg",
+    "static/media/icon5.b0af8069.svg": "/tripmaPrivate/static/media/icon5.b0af8069.svg",
+    "static/media/instagram.5ab0da3c.svg": "/tripmaPrivate/static/media/instagram.5ab0da3c.svg",
+    "static/media/location.738f08d1.svg": "/tripmaPrivate/static/media/location.738f08d1.svg",
+    "static/media/logo.7bfb85e9.svg": "/tripmaPrivate/static/media/logo.7bfb85e9.svg",
+    "static/media/twitter.96b262cc.svg": "/tripmaPrivate/static/media/twitter.96b262cc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.209d3dcb.js",
+    "static/js/2.94ef6a1a.chunk.js",
+    "static/css/main.7de9f1fe.chunk.css",
+    "static/js/main.148ad36f.chunk.js"
+  ]
+}
