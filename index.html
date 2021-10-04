@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tripma</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header-block">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./img/header/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="header__wrapper">
+          <div class="header__right">
+            <nav class="nav">
+              <img class="header__close" src="./img/header/close.svg" alt="close">
+              <ul class="nav__list">
+                <li class="nav__link">
+                  <a href="./address.html">Поиск по адресу</a>
+                </li>
+                <li class="nav__link">
+                  <a href="#">Провайдеры</a>
+                </li>
+                <li class="nav__link">
+                  <a href="#">Тарифы</a>
+                </li>
+                <li class="nav__link">
+                  <a href="#">+7 999 999 99 99</a>
+                </li>
+              </ul>
+            </nav>
+            <img class="header__menu" src="./img/header/menu.svg" alt="menu">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section hero">
+      <div class="container">
+        <div class="hero-block">
+          <h1 class="hero__title">Подключить лучший домашний интернет по своему адресу</h1>
+          <p class="hero__subtitle">
+            Введите Ваш адрес и сравните всех провайдеров своего дома в одной удобной таблице.
+            В ней есть вся информация, необходимая для выбора провайдера: тарифы,
+            качество техподдержки и абонентского обслуживания, народный рейтинг провайдеров
+          </p>
+          <form action="#" class="form search">
+            <label class="search__wrapper search__street">
+              <img class="search__img" src="./img/searchForm/location.svg" alt="">
+              <input list="street" class="form__input search__input" placeholder="Введите улицу">
+              <datalist id="street">
+              </datalist>
+            </label>
+            <label class="search__wrapper search__home">
+              <input list="home" class="form__input search__input" placeholder="Дом">
+              <datalist id="home">
+              </datalist>
+            </label>
+            <label class="search__wrapper search__type">
+              <input list="type" class="form__input search__input" placeholder="Тип подключения">
+              <datalist id="type">
+              </datalist>
+            </label>
+            <input class="search__btn btn" type="submit" value="Показать тарифы">
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section home">
+      <div class="container">
+        <div class="section__top">
+          <h2 class="section__title">Выгодные тарифы</h2>
+          <a to="#" class="section__close">
+            Показать все
+            <img src="./img/btnRight.svg" alt="btnRight">
+          </a>
+        </div>
+        <div class="home-block section-block"></div>
+        <div class="table">
+          <table class="table-block">
+            <thead class="table__head">
+              <tr class="table__head">
+                <th class="table__item table__head-item">
+                  <div class="table__provider">Провайдер</div>
+                </th>
+                <th class="table__item table__head-item">
+                  <div class="table__speed">Скорость</div>
+                </th>
+                <th class="table__item table__head-item">
+                  <div class="table__channel">Каналы</div>
+                </th>
+                <th class="table__item table__head-item">
+                  <div class="table__mobile">Моб. Связь</div>
+                </th>
+                <th class="table__item table__head-item">
+                  <div class="table__option">Опции</div>
+                </th>
+                <th class="table__item table__head-item">
+                  <div class="table__price">Стоимость</div>
+                </th>
+              </tr>
+            </thead>
+            <tbody class="table__body">
+              <tr class="table__string">
+                <td class="table__item">
+                  <div class="table__provider table__wrapper">
+                    <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                    <div class="table__right">
+                      <span class="table__title">Близкие люди 3+</span>
+                      <p class="table__subtitle">Билайн</p>
+                      <span class="table__stock">Акция!</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__speed">
+                    <span class="table__title">300</span>
+                    <p class="table__subtitle">Мбит / сек</p>
+                  </div>
+                </td>
+                <td class="table__item table__example">
+                  <div class="table__channel">
+                    <span class="table__title">180</span>
+                    <p class="table__subtitle">Каналов</p>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__mobile table__wrapper">
+                    <div class="table__elem">
+                      <span class="table__title">Безлимит</span>
+                      <p class="table__subtitle">гб</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">1200</span>
+                      <p class="table__subtitle">Мин</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">50</span>
+                      <p class="table__subtitle">SMS</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__option">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__price">
+                    <div class="table__left">
+                      <span class="table__title">990</span>
+                      <p class="table__subtitle">₽ / Мес</p>
+                    </div>
+                    <a href="#" class="table__btn btn">Подключить</a>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__string">
+                <td class="table__item">
+                  <div class="table__provider table__wrapper">
+                    <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                    <div class="table__right">
+                      <span class="table__title">Близкие люди 3+</span>
+                      <p class="table__subtitle">Билайн</p>
+                      <span class="table__stock">Акция!</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__speed">
+                    <span class="table__title">300</span>
+                    <p class="table__subtitle">Мбит / сек</p>
+                  </div>
+                </td>
+                <td class="table__item table__example">
+                  <div class="table__channel">
+                    <span class="table__title">180</span>
+                    <p class="table__subtitle">Каналов</p>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__mobile table__wrapper">
+                    <div class="table__elem">
+                      <span class="table__title">Безлимит</span>
+                      <p class="table__subtitle">гб</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">1200</span>
+                      <p class="table__subtitle">Мин</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">50</span>
+                      <p class="table__subtitle">SMS</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__option">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__price">
+                    <div class="table__left">
+                      <span class="table__title">990</span>
+                      <p class="table__subtitle">₽ / Мес</p>
+                    </div>
+                    <a href="#" class="table__btn btn">Подключить</a>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table__string">
+                <td class="table__item">
+                  <div class="table__provider table__wrapper">
+                    <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                    <div class="table__right">
+                      <span class="table__title">Близкие люди 3+</span>
+                      <p class="table__subtitle">Билайн</p>
+                      <span class="table__stock">Акция!</span>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__speed">
+                    <span class="table__title">300</span>
+                    <p class="table__subtitle">Мбит / сек</p>
+                  </div>
+                </td>
+                <td class="table__item table__example">
+                  <div class="table__channel">
+                    <span class="table__title">180</span>
+                    <p class="table__subtitle">Каналов</p>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__mobile table__wrapper">
+                    <div class="table__elem">
+                      <span class="table__title">Безлимит</span>
+                      <p class="table__subtitle">гб</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">1200</span>
+                      <p class="table__subtitle">Мин</p>
+                    </div>
+                    <div class="table__elem">
+                      <span class="table__title">50</span>
+                      <p class="table__subtitle">SMS</p>
+                    </div>
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__option">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                    <img src="./img/home/icon.svg" alt="icon.svg">
+                  </div>
+                </td>
+                <td class="table__item">
+                  <div class="table__wrapper table__price">
+                    <div class="table__left">
+                      <span class="table__title">990</span>
+                      <p class="table__subtitle">₽ / Мес</p>
+                    </div>
+                    <a href="#" class="table__btn btn">Подключить</a>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section home">
+      <div class="container">
+        <div class="section__top">
+          <h2 class="section__title">Рейтинг провайдеров домашнего интернета</h2>
+          <a href="#" class="section__close">
+            Весь рейтинг
+            <img src="./img/btnRight.svg" alt="btnRight">
+          </a>
+        </div>
+        <div class="home-block section-block">
+          <div class="table">
+            <table class="table-block">
+              <tbody class="rating-block table__body">
+                <tr class="table__string">
+                  <th>№</th>
+                  <th class="">Провайдер</th>
+                  <th>Рейтинг из 10</th>
+                  <th class="">
+                    <img class="rating__icon rating__wrapper-item" src="./img/home/icon1.svg" alt="icon1">
+                    <img class="rating__icon rating__wrapper-item" src="./img/home/icon2.svg" alt="icon2">
+                    <img class="rating__icon rating__wrapper-item" src="./img/home/icon3.svg" alt="icon3">
+                  </th>
+                  <th>
+                    <img class="" src="./img/home/icon4.svg" alt="icon4">
+                  </th>
+                  <th>
+                    <img class="" src="./img/home/icon5.svg" alt="icon5">
+                  </th>
+                </tr>
+                <tr class="table__string">
+                  <td class="rating__item table__item">
+                    1
+                  </td>
+                  <td class="rating__item rating__provider table__item">
+                    МТС
+                  </td>
+                  <td class="rating__item table__item">
+                    8.0
+                  </td>
+                  <td class="rating__item table__item">
+                    <div class="rating__wrapper rating__grade">
+                      <div class="rating__wrapper-item">
+                        <span class="rating__wrapper-green">504</span>
+                      </div>
+                      <div class="rating__wrapper-item">
+                        <span class="rating__wrapper-black">229</span>
+                      </div>
+                      <div class="rating__wrapper-item">
+                        <span class="rating__wrapper-red">990</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="rating__item table__item">
+                    1722
+                  </td>
+                  <td class="rating__item table__item">
+                    209
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section comment">
+      <div class="container">
+        <h2 class="section__title">Отзывы о провайдерах</h2>
+        <div class="comment-block">
+          <ul class="comment__list">
+            <li class="comment__item">
+              <div class="comment__item-block">
+                <img src="./img/comment/avatar1.png" alt="avatar">
+              </div>
+              <div class="comment__item-block">
+                <h4 class="comment__name">Неизвестный гость</h4>
+                <h5 class="comment__subtitle">Билайн, Москва | 23.09.2020</h5>
+                <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+              </div>
+            </li>
+            <li class="comment__item">
+              <div class="comment__item-block">
+                <img src="./img/comment/avatar1.png" alt="avatar">
+              </div>
+              <div class="comment__item-block">
+                <h4 class="comment__name">Неизвестный гость</h4>
+                <h5 class="comment__subtitle">Билайн, Москва | 23.09.2020</h5>
+                <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+              </div>
+            </li>
+            <li class="comment__item">
+              <div class="comment__item-block">
+                <img src="./img/comment/avatar1.png" alt="avatar">
+              </div>
+              <div class="comment__item-block">
+                <h4 class="comment__name">Неизвестный гость</h4>
+                <h5 class="comment__subtitle">Билайн, Москва | 23.09.2020</h5>
+                <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section cities">
+      <div class="container">
+        <h2 class="section__title">Подключаем домашний интернет в следующих регионах Москвы</h2>
+        <div class="cities-block">
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+          <ul class="cities__list">
+            <li class="cities__item">
+              <a href="#" class="cities__link">Академический</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алексеевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Алтуфьевский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Арбат</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Даниловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Дмитровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Донской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Лосиноостровский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Люблино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Марфино</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Очаково-Матвеевское</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Панфиловский</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Перово</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Тверской</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Текстильщики</a>
+            </li>
+            <li class="cities__item">
+              <a href="#" class="cities__link">Теплый Стан</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <ul class="footer__bottom-list">
+          <li class="footer__bottom-item">
+            <a href="#">
+              <img src="./img/footer/twitter.svg" alt="twitter">
+            </a>
+          </li>
+          <li class="footer__bottom-item">
+            <a href="#">
+              <img src="./img/footer/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="footer__bottom-item">
+            <a href="#">
+              <img src="./img/footer/facebook.svg" alt="facebook">
+            </a>
+          </li>
+        </ul>
+        <p class="footer__bottom-text">© 2021 | Разработали в QStudio.org</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
